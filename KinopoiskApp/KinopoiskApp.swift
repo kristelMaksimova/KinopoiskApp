@@ -13,7 +13,7 @@ struct KinopoiskAppApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(selectedFilms: Films.getFilms())
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

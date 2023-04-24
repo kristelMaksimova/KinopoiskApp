@@ -7,22 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		209C5C2429F6C777000DB27B /* KinopoiskAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209C5C2329F6C777000DB27B /* KinopoiskAppApp.swift */; };
+		209C5C2429F6C777000DB27B /* KinopoiskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209C5C2329F6C777000DB27B /* KinopoiskApp.swift */; };
 		209C5C2629F6C777000DB27B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209C5C2529F6C777000DB27B /* ContentView.swift */; };
 		209C5C2829F6C779000DB27B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209C5C2729F6C779000DB27B /* Assets.xcassets */; };
 		209C5C2B29F6C779000DB27B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209C5C2A29F6C779000DB27B /* Preview Assets.xcassets */; };
 		209C5C2D29F6C779000DB27B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209C5C2C29F6C779000DB27B /* Persistence.swift */; };
 		209C5C3029F6C779000DB27B /* KinopoiskApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 209C5C2E29F6C779000DB27B /* KinopoiskApp.xcdatamodeld */; };
+		209C5C3729F6C803000DB27B /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209C5C3629F6C803000DB27B /* CatalogView.swift */; };
+		209C5C3929F6E71F000DB27B /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209C5C3829F6E71F000DB27B /* SearchView.swift */; };
+		209C5C3B29F6E74B000DB27B /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209C5C3A29F6E74B000DB27B /* FavoritesView.swift */; };
+		209C5C3E29F70DAD000DB27B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209C5C3D29F70DAD000DB27B /* Model.swift */; };
+		209C5C4029F71135000DB27B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209C5C3F29F71135000DB27B /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		209C5C2029F6C777000DB27B /* KinopoiskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinopoiskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		209C5C2329F6C777000DB27B /* KinopoiskAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinopoiskAppApp.swift; sourceTree = "<group>"; };
+		209C5C2329F6C777000DB27B /* KinopoiskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinopoiskApp.swift; sourceTree = "<group>"; };
 		209C5C2529F6C777000DB27B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		209C5C2729F6C779000DB27B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		209C5C2A29F6C779000DB27B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		209C5C2C29F6C779000DB27B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		209C5C2F29F6C779000DB27B /* KinopoiskApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KinopoiskApp.xcdatamodel; sourceTree = "<group>"; };
+		209C5C3629F6C803000DB27B /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
+		209C5C3829F6E71F000DB27B /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		209C5C3A29F6E74B000DB27B /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		209C5C3D29F70DAD000DB27B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		209C5C3F29F71135000DB27B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +65,10 @@
 		209C5C2229F6C777000DB27B /* KinopoiskApp */ = {
 			isa = PBXGroup;
 			children = (
-				209C5C2329F6C777000DB27B /* KinopoiskAppApp.swift */,
-				209C5C2529F6C777000DB27B /* ContentView.swift */,
+				209C5C2329F6C777000DB27B /* KinopoiskApp.swift */,
+				209C5C3F29F71135000DB27B /* DataManager.swift */,
+				209C5C3D29F70DAD000DB27B /* Model.swift */,
+				209C5C3C29F6E754000DB27B /* View */,
 				209C5C2729F6C779000DB27B /* Assets.xcassets */,
 				209C5C2C29F6C779000DB27B /* Persistence.swift */,
 				209C5C2E29F6C779000DB27B /* KinopoiskApp.xcdatamodeld */,
@@ -71,6 +83,17 @@
 				209C5C2A29F6C779000DB27B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		209C5C3C29F6E754000DB27B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				209C5C2529F6C777000DB27B /* ContentView.swift */,
+				209C5C3629F6C803000DB27B /* CatalogView.swift */,
+				209C5C3829F6E71F000DB27B /* SearchView.swift */,
+				209C5C3A29F6E74B000DB27B /* FavoritesView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +168,13 @@
 			files = (
 				209C5C2D29F6C779000DB27B /* Persistence.swift in Sources */,
 				209C5C3029F6C779000DB27B /* KinopoiskApp.xcdatamodeld in Sources */,
+				209C5C3929F6E71F000DB27B /* SearchView.swift in Sources */,
 				209C5C2629F6C777000DB27B /* ContentView.swift in Sources */,
-				209C5C2429F6C777000DB27B /* KinopoiskAppApp.swift in Sources */,
+				209C5C3B29F6E74B000DB27B /* FavoritesView.swift in Sources */,
+				209C5C2429F6C777000DB27B /* KinopoiskApp.swift in Sources */,
+				209C5C3729F6C803000DB27B /* CatalogView.swift in Sources */,
+				209C5C4029F71135000DB27B /* DataManager.swift in Sources */,
+				209C5C3E29F70DAD000DB27B /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
